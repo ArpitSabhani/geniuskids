@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquary link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- =============Boostrap link================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- =================== font awasome ===========================     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- ======================= Link Swiper's CSS ====================== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- ============================== aos libarary =================================== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!-- ======================= Link Swiper's CSS ====================== -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- =============== css link ================ -->
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/fran-achivement.css">
+
+    <style>
+        .top-sticky {
+            position: sticky !important;
+            top: 0;
+        }
+    </style>
+
+    <title>Genius Kid</title>
+</head>
+
+<body>
+
+    <div class="container-fluid px-0">
+        <div class="row into-row">
+            <div class="col-lg-3 col-xl-2 intro-col-2 d-md-none d-sm-none d-none d-lg-block px-0 pt-2">
+                <div class="top-sticky">
+                    <div class="d-none d-lg-block">
+                        <div class="text-center">
+                            <a href="./index.html"><img src="./img/1.svg" class="logo-intro" alt=""></a>
+                        </div>
+                        <div>
+                            <div class="intro-part">
+                                <a href="./fran-introduction.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/intro-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">INTRODUCTION</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="./fran-about.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/about-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">ABOUT US</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="./fran-vision.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/fonder-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">FOUNDERS VISION</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+
+                                <a href="./fran-achivement.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/achivment-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">ACHIVEMENTS</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="./fran-inquary.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/franchaise-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">FRANCHISE INQUIRY</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="./index.html">
+                                    <div class="intro-link">
+                                        <div>
+                                            <img src="./img/home-svg.svg" class="svg-height" alt="">
+                                        </div>
+                                        <div>
+                                            <p class="mb-0 text-dark">home</p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-9 col-xl-10 px-0">
+                <div class="intro-col-10 text-center  d-lg-none">
+                    <h1>Achivements</h1>
+                </div>
+                <div class="header_section header-position d-lg-none d-block">
+                    <div class="dash-board">
+                        <a href="./index.html">
+                            <img src="./img/1.svg" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="./index.html"><img src="./img/1.svg" class="logo-intro" alt=""></a>
+                            <a href="./fran-introduction.html">INTRODUCTION</a>
+                            <a href="./fran-about.html">ABOUT US</a>
+                            <a href="./fran-vision.html">FOUNDERS VISION</a>
+                            <a href="./fran-achivement.html">ACHIVEMENTS</a>
+                            <a href="./fran-inquary.html">FRANCHISE INQUIRY</a>
+                        </div>
+                        <span class="toggle_icon" onclick="openNav()"><img src="./img/toggle-icon.png"
+                                class="line-img"></span>
+                    </div>
+                      <!-- ******************************* -->
+                      <div class="header">
+                        <div id="mySidenav" class="sidenav"> <!-- Add the sticky-sidebar class here -->
+                            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#"><img src="./img/1.svg" class="logo-intro" alt=""></a>
+                            <a href="./fran-introduction.html">INTRODUCTION</a>
+                            <a href="./fran-about.html">ABOUT US</a>
+                            <a href="./fran-vision.html">FOUNDERS VISION</a>
+                            <a href="./fran-achivement.html">ACHIEVEMENTS</a>
+                            <a href="./fran-inquary.html">FRANCHISE INQUIRY</a>
+                        </div>
+                        <div class="header-flex">
+                            <div>
+                                <span class="toggle_icon" onclick="openNav()"><img src="./img/toggle-icon.png"
+                                        class="line-img"></span>
+                            </div>
+                            <div class="header-flex-text">
+                                <h1 class="text-capitalize mb-0">geniuskid</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container-fluid px-0">
+                    <div class="row gx-0">
+                        <div class="col-lg-12 col-xl-6 achivement-left my-auto  order-2">
+                            <div>
+                                <h1 class="text-center">ACHIVEMENTS</h1>
+                                <input type="checkbox" class="d-block d-lg-none" id="check">
+                                <p>Success means different to different people. Our founders believe that whatever you
+                                    aim becomes your goal and achieving that is success. A person who wishes to be a
+                                    stay-at-home parent and ensures their kids are happy, healthy, and performing well
+                                    at school/extracurricular activities has achieved success. For a person who wishes
+                                    to
+                                    be an astronaut, and gets an invitation to be part of NASA, is success and for a
+                                    person who wishes to become a billionaire and establishes a business that yields
+                                    that kind of money is a success while for a person who wishes to be a bus driver and
+                                    efficiently drives, reaches on time, and takes care of all the safety rules, is a
+                                    success.</p>
+                                <p class="contant">Success is not just fame or money; Success can be absolutely anything
+                                    you wish or
+                                    desire to achieve and end up actually achieving it.</p>
+                                <p class="contant">At Genius Kid, we have covered all areas of success, giving every
+                                    student and
+                                    parent to choose their own journey with us. No matter what path they chose, they
+                                    will
+                                    enjoy the journey and success is inevitable</p>
+                                <p class="mb-0">In 20-plus years of existence, Genius Kid has achieved a lot in
+                                    different areas.
+                                    Hence, we have chosen just a few highlights and categorized them under titles that
+                                    define success to different people. You may select what category of success attracts
+                                    you or means to you and re-live our achieving moments with us while you get to
+                                    know us and our history better.</p>
+                                <label for="check" class="read">read more</label>
+                            </div>
+                            <div class="row content-row">
+                                <div class="col-md-12 mt-3">
+                                    <select class="form-select" aria-label="Default select example"
+                                        onchange="achivement(value);">
+                                        <option selected>ACHIEVEMENTS</option>
+                                        <option value="FAME">FAME</option>
+                                        <option value="AWARDS">AWARDS</option>
+                                        <option value="WORLD RECORDS">WORLD RECORDS</option>
+                                        <option value="EXPANSION OF KNOWLEDGE">EXPANSION OF KNOWLEDGE</option>
+                                        <option value="ADDITION OF MULTIPLE SKILLS">ADDITION OF MULTIPLE SKILLS</option>
+                                        <option value="GROWTH IN PERSONALITY">GROWTH IN PERSONALITY</option>
+                                        <option value="WORLD TRAVEL">WORLD TRAVEL</option>
+                                        <option value="CONTRIBUTING TO ENVIRONMENT">CONTRIBUTING TO ENVIRONMENT</option>
+                                        <option value="BUILDING A HEALTHY MIND">BUILDING A HEALTHY MIND</option>
+                                        <option value="BEING PART OF SPORTS">BEING PART OF SPORTS</option>
+                                        <option value="MONEY">MONEY</option>
+                                    </select>
+                                    <div id="FAME" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                    <div id="AWARDS" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+
+                                        </p>
+                                    </div>
+                                    <div id="WORLD_RECORDS" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                        </p>
+                                    </div>
+                                    <div id="EXPANSION_OF_KNOWLEDGE" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                        </p>
+                                    </div>
+                                    <div id="ADDITION_OF_MULTIPLE_SKILLS" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                        </p>
+                                    </div>
+                                    <div id="GROWTH_IN_PERSONALITY" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                        </p>
+                                    </div>
+                                    <div id="WORLD_TRAVEL" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                    <div id="CONTRIBUTING_TO_ENVIRONMENT" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                    <div id="BUILDING_A_HEALTHY_MIND" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                    <div id="BEING_PART_OF_SPORTS" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                    <div id="MONEY" class="d-none p-text">
+                                        <p class="p-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Ratione consectetur
+                                            nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!Lorem ipsum
+                                            dolor sit amet consectetur adipisicing elit. Ratione consectetur nam,
+                                            error velit non facere dolor, eius aperiam itaque similique autem recusandae
+                                            fuga facilis tempore voluptatibus quaerat deleniti impedit at!s</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6 my-auto achivement-right order-1">
+                            <div class="container px-5">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="achivement-img">
+                                            <img src="./img/achivemnet-fran.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- boostrap javascript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        function achivement(click) {
+            if (click == "FAME") {
+                $("#FAME").removeClass("d-none");
+            } else {
+                $("#FAME").addClass("d-none");
+            }
+
+            if (click == "AWARDS") {
+                $("#AWARDS").removeClass("d-none");
+            } else {
+                $("#AWARDS").addClass("d-none");
+            }
+
+            if (click == "WORLD RECORDS") {
+                $("#WORLD_RECORDS").removeClass("d-none");
+            } else {
+                $("#WORLD_RECORDS").addClass("d-none");
+            }
+
+            if (click == "EXPANSION OF KNOWLEDGE") {
+                $("#EXPANSION_OF_KNOWLEDGE").removeClass("d-none");
+            } else {
+                $("#EXPANSION_OF_KNOWLEDGE").addClass("d-none");
+            }
+
+            if (click == "ADDITION OF MULTIPLE SKILLS") {
+                $("#ADDITION_OF_MULTIPLE_SKILLS").removeClass("d-none");
+            } else {
+                $("#ADDITION_OF_MULTIPLE_SKILLS").addClass("d-none");
+            }
+
+            if (click == "GROWTH IN PERSONALITY") {
+                $("#GROWTH_IN_PERSONALITY").removeClass("d-none");
+            } else {
+                $("#GROWTH_IN_PERSONALITY").addClass("d-none");
+            }
+
+            if (click == "WORLD TRAVEL") {
+                $("#WORLD_TRAVEL").removeClass("d-none");
+            } else {
+                $("#WORLD_TRAVEL").addClass("d-none");
+            }
+
+            if (click == "CONTRIBUTING TO ENVIRONMENT") {
+                $("#CONTRIBUTING_TO_ENVIRONMENT").removeClass("d-none");
+            } else {
+                $("#CONTRIBUTING_TO_ENVIRONMENT").addClass("d-none");
+            }
+
+            if (click == "BUILDING A HEALTHY MIND") {
+                $("#BUILDING_A_HEALTHY_MIND").removeClass("d-none");
+            } else {
+                $("#BUILDING_A_HEALTHY_MIND").addClass("d-none");
+            }
+
+            if (click == "BEING PART OF SPORTS") {
+                $("#BEING_PART_OF_SPORTS").removeClass("d-none");
+            } else {
+                $("#BEING_PART_OF_SPORTS").addClass("d-none");
+            }
+
+            if (click == "MONEY") {
+                $("#MONEY").removeClass("d-none");
+            } else {
+                $("#MONEY").addClass("d-none");
+            }
+        }
+    </script>
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $(".header").addClass("fixed");
+            } else {
+                $(".header").removeClass("fixed");
+            }
+        });
+    </script>
+</body>
+
+</html>
